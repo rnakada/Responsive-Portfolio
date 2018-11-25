@@ -1,0 +1,146 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(../images/background-img.jpg);
+    background-size: cover;
+}
+
+.container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    border: 1px solid green;
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+[class*="col-"] {
+    float: left;
+    padding: 15px;
+    border: 1px solid red;
+}
+
+.col-1 {
+    width: 10%;
+    border: 1px solid orange;
+}
+
+.col-2 {
+    width: 20%;
+    border: 1px solid orange;
+}
+
+.col-3 {
+    width: 30%;
+    border: 1px solid orange;
+}
+
+.col-4 {
+    width: 40%;
+    border: 1px solid orange;
+}
+
+.col-5 {
+    width: 50%;
+    border: 1px solid orange;
+}
+
+.col-6 {
+    width: 60%;
+    border: 1px solid orange;
+}
+
+.col-7 {
+    width: 70%;
+    border: 1px solid orange;
+}
+
+.col-8 {
+    width: 80%;
+    border: 1px solid orange;
+}
+
+.col-9 {
+    width: 90%;
+    border: 1px solid orange;
+}
+
+.col-10 {
+    width: 100%;
+    border: 1px solid orange;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-right {
+    text-align: right;
+}
+
+/*
+Top Page
+*/
+
+.header-box {
+    background: lightgray;
+}
+
+.tesla {
+    font-size: 70px;
+    color: white;
+}
+
+.links {
+    border: 1px solid black;
+    padding: 3px;
+}
+
+a {
+    color: black;
+    font-size: 15px;
+}
+
+a:hover {
+    color: red;
+    font-size: 20px;
+}
+
+/*
+Content
+*/
+
+.content-box {
+    margin-top: 40px;
+}
+
+.img-tesla {
+    width: 400px;
+    height: 400px;
+}
+
+.tesla-info {
+    margin-top: 30px;
+}
+
+.tesla-hov:hover {
+    background-color: black;
+    color: white;
+    font-size: 20px;
+}
+
+/*
+Content
+*/
+
+.footer-box {
+    background-color: lightgray;
+}
