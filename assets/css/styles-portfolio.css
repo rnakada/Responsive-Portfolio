@@ -3,7 +3,7 @@
 }
 
 body {
-    background-image: url(../images/background-img.jpg);
+    background-image: url(../images/background-portfolio.jpg);
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -106,7 +106,7 @@ Top Page
 }
 
 a {
-    color: black;
+    color: white;
     font-size: 15px;
 }
 
