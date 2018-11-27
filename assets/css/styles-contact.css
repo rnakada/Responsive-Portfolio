@@ -124,10 +124,10 @@ Content
 
 .submit-btn {
     height: 60px;
-    width: 60px;
+    width: 80px;
     border: 5px solid white;
     border-radius: 50%;
-    text-align: center;
+    
 }
 
 .submit-btn:hover {
@@ -153,19 +153,7 @@ Media screen
         width: 100%;
     }
     
-    .col-4 {
-        float: left;
-        clear: both;
-        width: 100%;
-    }
-    
-    .col-5 {
-        float: left;
-        clear: both;
-        width: 100%;
-    }
-
-    .col-6 {
+    .collapse-10 {
         float: left;
         clear: both;
         width: 100%;
@@ -183,19 +171,7 @@ Media screen
         width: 100%;
     }
     
-    .col-4 {
-        float: left;
-        clear: both;
-        width: 100%;
-    }
-    
-    .col-5 {
-        float: left;
-        clear: both;
-        width: 100%;
-    }
-
-    .col-6 {
+    .collapse-10 {
         float: left;
         clear: both;
         width: 100%;
@@ -213,19 +189,7 @@ Media screen
         width: 100%;
     }
     
-    .col-4 {
-        float: left;
-        clear: both;
-        width: 100%;
-    }
-    
-    .col-5 {
-        float: left;
-        clear: both;
-        width: 100%;
-    }
-
-    .col-6 {
+    .collapse-10 {
         float: left;
         clear: both;
         width: 100%;

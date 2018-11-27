@@ -107,8 +107,12 @@ Content
 */
 
 img {
-    width: 100%;
-    height: auto;
+    width: 300px;
+    height: 200px;
+}
+
+.tesla-img:hover {
+    border: 10px solid white;
 }
 
 /*
@@ -129,33 +133,12 @@ Media screen
         width: 100%;
     }
     
-    .col-4 {
+    .collapse-10 {
         float: left;
         clear: both;
         width: 100%;
     }
     
-    .col-5 {
-        float: left;
-        clear: both;
-        width: 100%;
-    }
-
-    .col-6 {
-        float: left;
-        clear: both;
-        width: 100%;
-    }
-    
-    .img-tesla {
-        width: 100%;
-    }
-    
-    .portfolio-pics {
-        width: 100%;
-        height: 200px;
-    }
-
     }
     
     @media screen and (max-width: 768px) {
@@ -164,33 +147,12 @@ Media screen
         width: 100%;
     }
     
-    .col-4 {
+    .collapse-10 {
         float: left;
         clear: both;
-        width: 100%;
-    }
-    
-    .col-5 {
-        float: left;
-        clear: both;
-        width: 100%;
-    }
-
-    .col-6 {
-        float: left;
-        clear: both;
-        width: 100%;
-    }
-    
-    .img-tesla {
         width: 100%;
     }
         
-    .portfolio-pics {
-        width: 100%;
-        height: 200px;
-    }
-
     }
     
     @media screen and (max-width: 640px) {
@@ -199,31 +161,10 @@ Media screen
         width: 100%;
     }
     
-    .col-4 {
+    .collapse-10 {
         float: left;
         clear: both;
         width: 100%;
-    }
-    
-    .col-5 {
-        float: left;
-        clear: both;
-        width: 100%;
-    }
-
-    .col-6 {
-        float: left;
-        clear: both;
-        width: 100%;
-    }
-    
-    .img-tesla {
-        width: 100%;
-    }
-    
-    img {
-        width: 100%;
-        height: 200px;
     }
 
     }

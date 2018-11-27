@@ -111,8 +111,8 @@ Content
 }
 
 img {
-    width: 100%;
-    height: auto;
+    width: 300px;
+    height: 300px;
 }
 
 .tesla-info {
@@ -122,7 +122,6 @@ img {
 .tesla-hov:hover {
     background-color: black;
     color: white;
-    font-size: 20px;
 }
 
 /*
@@ -139,27 +138,28 @@ Media screen
 
 @media screen and (max-width: 980px) {
 
-
-
 .container {
     width: 100%;
 }
 
-.col-4 {
-    float: left;
-    clear: both;
-    width: 100%;
-}
-
-.col-6 {
+.collapse-10 {
     float: left;
     clear: both;
     width: 100%;
 }
 
 img {
-    width: 100%;
-    height: auto;
+    width: 300px;
+    height: 300px;
+}
+
+a {
+    color: white;
+    font-size: 15px;
+}
+
+.tesla-info {
+    color: white;
 }
 
 }
@@ -170,50 +170,52 @@ img {
     width: 100%;
 }
 
-.col-4 {
-    float: left;
-    clear: both;
-    width: 100%;
-}
-
-.col-6 {
+.collapse-10 {
     float: left;
     clear: both;
     width: 100%;
 }
 
 img {
-    width: 100%;
+    width: 300px;
+    height: 300px;
 }
-    
+
+a {
+    color: white;
+    font-size: 15px;
+}
+
+.tesla-info {
+    color: white;
+}
+
 }
 
 @media screen and (max-width: 640px) {
-
-    body {
-        background-image: url(../images/background-img.jpg);
-        background-size: cover;
-        background-repeat: no-repeat;
-    }
 
 .container {
     width: 100%;
 }
 
-.col-4 {
-    float: left;
-    clear: both;
-    width: 100%;
-}
-
-.col-6 {
+.collapse-10 {
     float: left;
     clear: both;
     width: 100%;
 }
 
 img {
-    width: 100%;
+    width: 200px;
+    height: 200px;
+}
+
+a {
+    color: white;
+    font-size: 15px;
+}
+
+.tesla-info {
+    color: white;
 }
 
 }
